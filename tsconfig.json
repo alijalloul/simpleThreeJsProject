@@ -21,6 +21,13 @@
       "@/*": ["./src/*"]
     }
   },
-  "include": ["next-env.d.ts", "**/*.ts", "**/*.tsx", ".next/types/**/*.ts"],
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    ".next/types/**/*.ts",
+    "src/app/_components/ThreeCanvas.jsx",
+    "src/app/_components/CameraRig.jsx"
+, "src/app/_components/ColorPicker.jsx"  ],
   "exclude": ["node_modules"]
 }
